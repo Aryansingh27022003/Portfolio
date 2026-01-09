@@ -505,3 +505,111 @@ body {
 section h2 {
   color: #38bdf8 !important;
 }
+
+@media (max-width: 600px) {
+
+  /* HERO */
+  .hero h1 {
+    font-size: 2.1rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .buttons {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+
+  .buttons a {
+    width: 90%;
+    text-align: center;
+  }
+
+  /* NAVBAR */
+  .navbar {
+    flex-wrap: wrap;
+    gap: 12px;
+    padding: 10px;
+  }
+
+  .navbar a {
+    font-size: 0.85rem;
+  }
+
+  /* SECTION HEADINGS */
+  section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 25px;
+  }
+
+  /* ABOUT */
+  .about {
+    padding: 80px 16px;
+  }
+
+  /* EXPERIENCE */
+  .exp-card {
+    padding: 22px;
+  }
+
+  /* EDUCATION */
+  .edu-card {
+    padding: 20px;
+  }
+
+  /* PROJECTS */
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* PUBLICATIONS */
+  .pub-card {
+    padding: 20px;
+  }
+
+  /* DATASETS */
+  .dataset-card {
+    padding: 20px;
+  }
+
+  /* ACHIEVEMENTS */
+  .ach-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* INTERESTS */
+  .interest-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* PAINTING GALLERY */
+  .painting-gallery {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 900px) {
+
+  section {
+    padding: 80px 20px;
+  }
+
+  .project-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .ach-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .interest-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .painting-gallery {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
